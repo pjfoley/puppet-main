@@ -7,5 +7,5 @@
     remote: 'https://github.com/pjfoley/puppet-environments'
     basedir: '/etc/puppet/environments'
 
-    remote: 'https://github.com/pjfoley/puppet-hiera'
+    remote: 'https://github.com/pjfoley/puppet-hieradata'
     basedir: '/etc/puppet/hieradata'
