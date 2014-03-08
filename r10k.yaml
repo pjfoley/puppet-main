@@ -1,0 +1,11 @@
+# The location to use for storing cached Git repos
+:cachedir: '/var/cache/r10k'
+
+# A list of git repositories to create
+:sources:
+  :modules:
+    remote: 'https://github.com/pjfoley/puppet-environments'
+    basedir: '/etc/puppet/environments'
+
+    remote: 'https://github.com/pjfoley/puppet-hiera'
+    basedir: '/etc/puppet/hieradata'
